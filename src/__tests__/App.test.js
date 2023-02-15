@@ -1,7 +1,9 @@
 import React from "react";
+// have used testing-library of react an jest
 import { render, screen, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import userEvent from "@testing-library/user-event";
+// importing app here for testing
 import App from "../App";
 
 describe("React Form Component Testing", () => {
